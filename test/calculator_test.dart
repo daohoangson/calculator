@@ -17,7 +17,7 @@ void main() {
     test('subtracts value', () {
       final calculator = Calculator();
       calculator.substract(3);
-      expect(calculator.value, -2.0);
+      expect(calculator.value, -3.0);
     });
 
     test('isNot', () {
